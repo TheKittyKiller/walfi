@@ -1,12 +1,16 @@
-const endpoint = "https://sebmelph.com/wordpress/wp-json/wp/v2/product"
+window.addEventListener("DOMContentLoaded", init);
+
+const endpoint = "https://sebmelph.com/wordpress/wp-json/wp/v2/product?_embed";
+
+function init(event) {
+  getData();
+}
 
 async function getData() {
   let result = await fetch(endpoint);
-  showPosts(await result.json());
-}
- 
-function showPosts(posts) {
-  console.log(posts);
+  showProducts(await result.json());
 }
 
-getData();
+function showProducts(products) {
+  console.log(products);
+}
