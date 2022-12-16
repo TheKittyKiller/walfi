@@ -1,13 +1,14 @@
 .hero {
     position: relative;
     text-align: center;
+    padding-top: 10%;
+
 
 }
 
 .heroimg {
     position: absolute;
     display: block;
-
 }
 
 .heroh1 {
@@ -15,8 +16,8 @@
     font-size: 5.5vw;
     position: absolute;
     top: 50%;
-    left: 5%;
-    transform: translate(2%, 800%);
+    left: 4.5%;
+    transform: translate(2%, 850%);
 }
 
 .farsi {
@@ -24,8 +25,9 @@
     text-align: center;
     position: absolute;
     top: 50%;
-    left: 15%;
-    transform: translate(2%, 500%);
+    left: 11%;
+    transform: translate(2%, 450%);
+    letter-spacing: .5vw;
 
 }
 
