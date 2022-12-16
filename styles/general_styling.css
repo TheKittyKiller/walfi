@@ -1,0 +1,56 @@
+/* Importing the fonts */
+
+@import url('https://fonts.cdnfonts.com/css/monument-extended');
+/* font-family: 'Monument Extended', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+:root {
+    --header-font: 'Monument Extended', sans-serif;
+    --body-font: 'Roboto', sans-serif;
+    --main-font-color: #ffffff;
+    --main-bg-color: #161618;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--header-font);
+    color: var(--main-font-color);
+    font-weight: 200;
+}
+
+p {
+    font-family: var(--body-font);
+    color: var(--main-font-color);
+}
+
+body {
+    background-color: var(--main-bg-color);
+}
+
+
+/* header nav */
+/* ------>>>>>>><<<<<<<----------- */
+/* THIS IS TEMPORATY */
+nav:nth-child(1) {
+    text-align: center;
+}
+/* ------>>>>>>><<<<<<<----------- */
+
+
+/* For tablets: */
+@media only screen and (min-width: 600px) {}
+
+/* For desktop: */
+@media only screen and (min-width: 768px) {}
