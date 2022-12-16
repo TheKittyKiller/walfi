@@ -1,0 +1,50 @@
+.hero {
+    position: relative;
+    text-align: center;
+
+}
+
+.heroimg {
+    position: absolute;
+    display: block;
+
+}
+
+.heroh1 {
+    font-weight: 600;
+    font-size: 5.5vw;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(2%, 700%);
+
+
+
+}
+
+/* For tablets: */
+/* @media only screen and (min-width: 600px) {} */
+
+
+
+/* For desktop: */
+@media only screen and (min-width: 768px) {
+
+    .heroimg {
+        position: relative;
+        /* display: block; */
+        max-width: 30%;
+        top: 50%;
+        left: 35%;
+        transform: translate(2%, 15%);
+    }
+
+    .heroh1 {
+        font-weight: 550;
+        font-size: 5.5vw;
+        position: relative;
+        top: -10%;
+        left: 3%;
+        transform: translate(-3%, -300%);
+    }
+}
