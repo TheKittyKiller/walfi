@@ -1,50 +1,46 @@
 .hero {
     position: relative;
     text-align: center;
-
+    padding-top: 3%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
 }
 
 .heroimg {
-    position: absolute;
-    display: block;
-
+    max-height: 100%;
+    float: left;
+    grid-column: 1/6;
 }
 
 .heroh1 {
+    padding-top: 5%;
     font-weight: 600;
     font-size: 5.5vw;
-    position: absolute;
-    top: 50%;
-    left: 5%;
-    transform: translate(2%, 700%);
+    grid-column: 1/6;
+}
 
+.farsi {
+    padding-top: 17%;
+    font-size: 10vw;
+    letter-spacing: .5vw;
+    grid-column: 1/6;
+}
 
-
+.heroimg,
+.heroh1,
+.farsi {
+    grid-row: 1/2;
+    align-self: center;
 }
 
 /* For tablets: */
-/* @media only screen and (min-width: 600px) {} */
-
-
-
-/* For desktop: */
-@media only screen and (min-width: 768px) {
-
+@media only screen and (min-width: 600px) {
     .heroimg {
-        position: relative;
-        /* display: block; */
-        max-width: 30%;
-        top: 50%;
-        left: 35%;
-        transform: translate(2%, 15%);
-    }
-
-    .heroh1 {
-        font-weight: 550;
-        font-size: 5.5vw;
-        position: relative;
-        top: -10%;
-        left: 3%;
-        transform: translate(-3%, -300%);
+        /* max-height: 100%; */
+        max-width: 35%;
     }
 }
+
+/* For desktop: */
+@media only screen and (min-width: 768px) {}
