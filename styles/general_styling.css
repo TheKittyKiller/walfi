@@ -32,7 +32,9 @@ h6 {
     font-weight: 300;
 }
 
-.title {text-align: center;}
+.title {
+    text-align: center;
+}
 
 
 
@@ -51,15 +53,26 @@ body {
 
 header,
 main,
-footer {
+.footer-wrapper {
     padding: 0 2.5% 0 2.5%;
+}
+
+main {
+    padding-top: 0%;
+    position: relative;
 }
 
 a {
     text-decoration: none;
 }
 
+
+
 /* Nav */
+
+.sticky {
+    position: sticky;
+}
 
 header {
     width: 100%;
@@ -85,7 +98,7 @@ header .cart-icon img {
     width: 25px;
 }
 
-nav {
+#header-nav {
     width: 100%;
     height: 100%;
     background-color: var(--main-bg-color) !important;
@@ -100,7 +113,7 @@ nav {
     z-index: 1;
 }
 
-nav a {
+#header-nav a {
     font-family: var(--header-font);
     color: var(--main-font-color);
     text-decoration: none;
@@ -112,7 +125,7 @@ nav a {
     text-align: center;
 }
 
-nav #close-nav {
+#header-nav #close-nav {
     position: fixed;
     left: 3%;
     top: 1%;
@@ -139,15 +152,89 @@ nav.appear .show {
     }
 }
 
+/* Footer */
+footer {
+    position: relative;
+}
+
+.separatorLine {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    vertical-align: middle;
+    stroke-width: "1";
+}
+
+.footer-wrapper {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    align-items: center;
+    grid-row-gap: 8%;
+}
+
+nav.footer-nav {
+    grid-column: 1/2;
+}
+
+nav.footer-nav>a {
+    font-family: var(--header-font);
+    color: var(--main-font-color);
+    text-decoration: none;
+    font-size: 0.55rem;
+    margin-bottom: 5%;
+    display: block;
+}
+
+h1.footerlogo {
+    font-size: 0.65rem;
+}
+
+div.info-wrapper {
+    grid-column: 1/2;
+}
+
+#info-wrapper-padding {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.iglink {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2%;
+}
+
+.igicon {
+    height: 100%;
+    width: 3%;
+}
+
+h2.igtag {
+    font-size: .55rem;
+    font-weight: 100;
+}
+
+a.email {
+    text-decoration: none;
+    color: var(--main-font-color);
+    font-family: var(--body-font);
+    font-size: .75rem;
+    cursor: pointer;
+}
+
+div.farsi-wrapper {
+    grid-column: 2/2;
+    grid-row: 1/3;
+    text-align: right;
+
+}
+
+
 
 /* For tablets: */
 @media only screen and (min-width: 600px) {}
 
 /* For desktop: */
-@media only screen and (min-width: 768px) {
-
-  
-
-      
-
-}
+@media only screen and (min-width: 768px) {}
