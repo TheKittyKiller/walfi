@@ -24,7 +24,7 @@ function showProducts(products) {
 // function buttonColor() { 
 
 
-// document.getElementById("success").style.backgroundColor= '#911';
+// document.getElementById("button").style.backgroundColor= '#911';
 
 // }
 
@@ -33,12 +33,22 @@ function showProducts(products) {
 
 
 
-
-
-
-let button= document.querySelector('#success');
+let button= document.querySelector('#button');
 
 button.addEventListener('click', ()=> button.style.backgroundColor ='grey') 
+
+
+
+// const btn= document.getElementById('button');
+// index0= 0
+// index1= 1
+
+// const colors = ['green', 'blue']; 
+
+// button.addEventListener('click', function buttonColor(){
+// button.style.backgroundColor= colors[index]; 
+// index= index + 1 
+// }); 
 
 
 
