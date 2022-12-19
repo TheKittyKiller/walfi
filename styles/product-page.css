@@ -6,11 +6,26 @@ body {
 
 img {
 
-width: 70%;
+width: 100%;
 
 }
 
+.price { font-weight: bolder;}
 
+.atc {
+
+  border: none;
+  background-color: rgb(27, 27, 28);
+width: 100%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+}
 
 ul{
 list-style: none;
@@ -21,7 +36,7 @@ text-align: center;}
 
 p {
 
-  margin-left: 15PX;
+  margin-left: 13PX;
 
 }
 
@@ -29,21 +44,30 @@ p {
     background-color:white; 
     border: none;
     color: black;
-    padding: 16px 40px;
+    padding: 16px 28px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
   }
   
-  
+.wlf {
+
+margin-left: 6px;
+
+font-size: 100%;
+
+}
 
 
 
+img {
 
+  align-items: center;
+}
 
 
 
