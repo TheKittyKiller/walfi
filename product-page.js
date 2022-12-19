@@ -24,34 +24,13 @@ function showProducts(products) {
 // function buttonColor() { 
 
 
-// document.getElementById("button1").style.backgroundColor= '#911';
+// document.getElementById("success").style.backgroundColor= '#911';
 
 // }
 
 
 
-// function buttonColor() { 
 
-
-//   document.getElementById("button2").style.backgroundColor= '#911';
-  
-//   }
-
-
-// function buttonColor() { 
-
-
-//   document.getElementById("button3").style.backgroundColor= '#911';
-  
-//   }
-
-
-// function buttonColor() { 
-
-
-//   document.getElementById("button4").style.backgroundColor= '#911';
-  
-//   }
 
 
 
