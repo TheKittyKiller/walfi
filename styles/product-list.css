@@ -1,0 +1,65 @@
+img {
+
+width: 100%;
+
+}
+
+
+.main_hood {
+
+
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 80%;
+}
+
+
+
+.centre{
+
+text-align: center;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: 'Monument Extended', sans-serif; 
+    font-size: 250%;
+}
+
+.opac {
+
+    opacity: 40%;
+
+
+}
+
+  
+  
+  .top-right {
+    position: absolute;
+    top: 130px;
+    right: 16px;
+  }
+  
+ 
+  .bottom-right {
+    position: absolute;
+    top: 200px;
+    right: 16px;
+  }
+  
+
+  .centered {
+    position: absolute;
+    top: 270px;
+    right: 16px;
+  } 
+
+  .top-left {
+    position: absolute;
+    top: 340px;
+    right: 16px; }
