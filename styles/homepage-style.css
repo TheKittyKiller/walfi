@@ -1,10 +1,11 @@
 .hero {
     position: relative;
     text-align: center;
-    padding-top: 3%;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     justify-items: center;
+    padding-top: 5%;
+    height: 100vh;
 }
 
 .heroimg {
@@ -16,9 +17,10 @@
 
 .heroh1 {
     padding-top: 5%;
-    font-weight: 600;
+    font-weight: 550;
     font-size: 5.5vw;
     grid-column: 1/6;
+    letter-spacing: 0.05em;
 }
 
 .farsi {
@@ -37,11 +39,35 @@
 
 /* For tablets: */
 @media only screen and (min-width: 600px) {
-    .heroimg {
-        /* max-height: 100%; */
-        max-width: 35%;
+    .hero {
+        padding-top: 5%;
+        padding-bottom: 5%;
     }
+
+    .heroimg {
+        max-width: 60vmax;
+    }
+
+    .heroh1 {
+        padding-top: 5%;
+        font-weight: 550;
+        font-size: 5vw;
+        grid-column: 1/6;
+        letter-spacing: 0.05em;
+    }
+
+    .farsi {
+        padding-top: 20%;
+        font-size: 10vw;
+        letter-spacing: .5vw;
+        grid-column: 1/6;
+    }
+
 }
 
 /* For desktop: */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+    .heroimg {
+        max-width: 35vmax;
+    }
+}
