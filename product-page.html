@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Page</title>
-    <link rel="stylesheet" href="styles/product-page.css"> 
-    <link rel="stylesheet" href="styles/general_styling.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Page</title>
+  <link rel="stylesheet" href="styles/product-page.css">
+  <link rel="stylesheet" href="styles/general_styling.css">
 </head>
+
 <body>
 
   <header class="sticky">
     <a href="#" class="menu-btn" id="open-nav">
-        <img src="/Assets/three_line_menu.svg" alt="">
+      <img src="/Assets/three_line_menu.svg" alt="">
     </a>
     <a href="#" class="nav-tittle">WALFI</a>
     <a href="#" class="cart-icon"> <img src="/Assets/cart_icon.svg" alt=""></a>
-</header>
-<nav class="hiden" id="header-nav">
+  </header>
+  <nav class="hiden" id="header-nav">
     <a id="close-nav"><img src="/Assets/close.svg" alt=""></a>
     <a href="#" class="show" id="hide" style="animation-delay: 0.1s">Home</a>
     <a href="#" class="show" id="hide" style="animation-delay: 0.2s">Our Purpose</a>
@@ -25,57 +27,85 @@
     <a href="#" class="show" id="hide" style="animation-delay: 0.4s">Woman Life Freedom Clothing</a>
     <a href="#" class="show" id="hide" style="animation-delay: 0.5s">Donate</a>
     <a href="#" class="show" id="hide" style="animation-delay: 0.5s">Demonstration</a>
-</nav>
-
-  
-<main> 
+  </nav>
 
 
-<div class="wrapper">   
-<img src="https://sebmelph.com/wordpress/wp-content/uploads/2022/12/frontfloor.png" alt="">
+  <main>
 
-<a href="checkout-page1.html"> 
-<button  class="atc"><h2>Buy Now</h2></button> 
-</a>
+    <section araia aria-label="Hoodie_images">
+      <div class="caro" data-caro>
 
 
-<br>
+        <button class="caro-button prev" data-caro-button="prev"> &#8592; </button>
 
-<h1 class="wlf"> WOMEN LIFE FREEDOM-HOODIE  </h1>
+        <button class="caro-button next" data-caro-button="next"> &#8594;</button>
 
+        <ul data-slides>
+          <li class="slide" data-active> <img src="https://sebmelph.com/wordpress/wp-content/uploads/2022/12/back1.png"
+              alt="back_main"> </li>
+          <li class="slide"> <img src="https://sebmelph.com/wordpress/wp-content/uploads/2022/12/front1.png"
+              alt="front_main"> </li>
+          <li class="slide"> <img src="https://sebmelph.com/wordpress/wp-content/uploads/2022/12/folded.png"
+              alt="folded"> </li>
+              <li class="slide" > 
+      <img src="https://sebmelph.com/wordpress/wp-content/uploads/2022/12/frontfloor.png" alt="">
+  </li>
 
+        </ul>
 
-  </div>
+      </div>
 
-  <br>
+    </section>
 
-<p>unisex</p>
-<br>
-<p class="price">400KR</p>
-<br>
-<p>SELECT SIZE</p>
-
-
-
-
- 
-   
-<ul>
-  <li>  <button  id="button" class="button">S</button> </li> 
-  <li>  <button  id="button" class="button">M</button> </li> 
-  <li>  <button  id="success" class="button">L</button> </li> 
-  <li>  <button  id="success" class="button">XL</button> </li> 
-
-</ul>
+    <div class="wrapper">
 
 
 
+      <a href="checkout-page1.html">
+        <button class="atc">
+          <h2>Buy Now</h2>
+        </button>
+      </a>
 
-</main>
+
+      <br>
+
+      <h1 class="wlf"> WOMEN LIFE FREEDOM-HOODIE </h1>
 
 
-<script src="product-page.js"></script>
-<script src="/js-files/nav-script.js"></script>
+
+    </div>
+
+    <br>
+
+    <p>unisex</p>
+    <br>
+    <p class="price">400KR</p>
+    <br>
+    <p>SELECT SIZE</p>
+
+
+
+
+
+
+    <ul>
+      <li> <button id="button" class="button">S</button> </li>
+      <li> <button id="button" class="button">M</button> </li>
+      <li> <button id="success" class="button">L</button> </li>
+      <li> <button id="success" class="button">XL</button> </li>
+
+    </ul>
+
+
+
+
+  </main>
+
+  <script src="/js-files/app.js"></script>
+  <script src="product-page.js"></script>
+  <script src="/js-files/nav-script.js"></script>
 
 </body>
+
 </html>
