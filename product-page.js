@@ -15,13 +15,7 @@ function showProducts(products) {
   console.log(products);
 }
 
- //   grab the template
- const template = document.querySelector("#product_hoodie").content;
-
- //   cloning the template
- const copy = template.cloneNode(true);
-
-
+ 
 
 
 
