@@ -52,9 +52,9 @@ delete activeSlide.dataset.active
 
 
 
-// let button= document.querySelector('#button');
+let button= document.querySelector('#button');
 
-// button.addEventListener('click', ()=> button.style.backgroundColor ='grey') 
+button.addEventListener('click', ()=> button.style.backgroundColor ='grey') 
 
 
 
