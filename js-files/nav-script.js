@@ -11,3 +11,4 @@ closeNavButton.addEventListener("click", function () {
   nav.classList.toggle("hiden");
   nav.classList.remove("appear");
 });
+
