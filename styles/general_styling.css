@@ -54,7 +54,6 @@ body {
 }
 
 header,
-main,
 .footer-wrapper {
     padding: 0 2.5% 0 2.5%;
 }
@@ -88,7 +87,9 @@ header {
 
 .nav-tittle {
     font-family: var(--header-font);
-    font-size: 1.5rem;
+    font-size: 1.75rem;
+    font-weight: 450;
+    letter-spacing: 0.15em;
     color: var(--main-font-color);
 }
 
@@ -158,6 +159,7 @@ nav.appear .show {
 /* Footer */
 footer {
     position: relative;
+    padding-bottom: 10%;
 }
 
 .separatorLine {
@@ -166,7 +168,7 @@ footer {
     height: 100%;
     overflow: hidden;
     vertical-align: middle;
-    stroke-width: "1";
+    stroke-width: "0.5";
 }
 
 .footer-wrapper {
@@ -174,6 +176,7 @@ footer {
     grid-template-columns: 3fr 2fr;
     align-items: center;
     grid-row-gap: 8%;
+    padding-top: 5%;
 }
 
 nav.footer-nav {
@@ -184,7 +187,7 @@ nav.footer-nav>a {
     font-family: var(--header-font);
     color: var(--main-font-color);
     text-decoration: none;
-    font-size: 0.55rem;
+    font-size: 1vmax;
     margin-bottom: 5%;
     display: block;
 }
@@ -211,7 +214,8 @@ div.info-wrapper {
 
 .igicon {
     height: 100%;
-    width: 3%;
+    width: 5%;
+
 }
 
 h2.igtag {
@@ -237,7 +241,16 @@ div.farsi-wrapper {
 
 
 /* For tablets: */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+    footer {
+        padding-bottom: 5%;
+    }
+
+    .footer-wrapper {
+        padding-top: 3%;
+    }
+
+}
 
 /* For desktop: */
 @media only screen and (min-width: 768px) {}
