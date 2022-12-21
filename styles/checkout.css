@@ -1,43 +1,46 @@
 label {
 
-    color: white;
-  
-    font-family: 'Monument Extended', sans-serif;
-  }
-  
-  
+  color: white;
+
+  font-family: 'Monument Extended', sans-serif;
+}
 
 
-h1,h2,h4 {
-text-align: center;
+
+
+h1,
+h2,
+h4 {
+  text-align: center;
 
 }
-  img {
 
-    width: 100%;
-  }
+img {
+
+  width: 100%;
+}
 
 button {
-    background-color:white; 
-    border: none;
-    color: black;
-    padding: 16px 28px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    font-family: 'Monument Extended', sans-serif;
-  }
-  
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 16px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: 'Monument Extended', sans-serif;
+}
+
 .buttons {
 
 
-display: grid;
-grid-template-columns: 1fr 1fr;
-grid-gap: 150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 150px;
 
 }
 
@@ -50,31 +53,31 @@ grid-gap: 150px;
 
 @media only screen and (min-width: 768px) {
 
-img {
+  img {
 
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 
-}
-
-
-.form {
-
-margin: 0 auto; 
-width:250px;
-
-}
-
-.buttons {
+  }
 
 
-  display: grid;
-  grid-template-columns: 1fr 1fr;
- grid-gap: 80% ;
-  
-margin-left: 4%;
+  .form {
+
+    margin: 0 auto;
+    width: 250px;
+
+  }
+
+  .buttons {
 
 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 80%;
+    margin-left: 4%;
+
+
+  }
 }
