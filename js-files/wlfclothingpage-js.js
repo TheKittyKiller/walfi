@@ -21,15 +21,19 @@ function showImages(item) {
 
   const copy = template.cloneNode(true);
 
-  copy
-    .querySelector(".productimg")
-    .setAttribute(
-      "src",
-      item._embedded["wp:featuredmedia"][0].media_details.sizes.full.source_url
-    );
+  //for single fetching a single image//
 
-  const parent = document.querySelector(".template-holder");
+  if (item.id === 20) {
+    copy
+      .querySelector("#productimg")
+      .setAttribute(
+        "src",
+        item._embedded["wp:featuredmedia"][0].media_details.sizes.full
+          .source_url
+      );
+  }
+
+  const parent = document.querySelector(".template_holder");
 
   parent.appendChild(copy);
 }
-
