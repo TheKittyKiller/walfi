@@ -15,6 +15,8 @@ function showProducts(products) {
   console.log(products);
 }
 
+
+
  
 
 
