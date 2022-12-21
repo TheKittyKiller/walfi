@@ -16,11 +16,6 @@ function showProducts(products) {
 }
 
 
-
- 
-
-
-
 const buttons = document.querySelectorAll("[data-caro-button]")
 
 buttons.forEach(button => {
